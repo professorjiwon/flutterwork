@@ -8,3 +8,31 @@
   - Factory Constructors : 매번 새로운 객체를 만들지 않는 생성자를 활용할 때 사용.
                           이미 존재하는 객체를 반환하거나, 단순한 초기값을 부여가 아니라 연산이 필요한 객체 생성시
  */
+void main() {
+  Idol blackPink = Idol('블랙핑크', ['리사','로제','제니','지수']);
+  print(blackPink.name);
+  blackPink.sayHello();
+  blackPink.introduce();
+}
+
+class Idol {
+  String name;
+  List<String> members;
+/*
+  // 생성자
+  Idol(String name, List<String> members)
+    : this.name = name,
+      this.members = members;
+  */
+
+  // 위의 생성자를 간단하게
+  Idol(this.name, this.members);
+
+  sayHello() {
+    print('안녕하세요 $name 입니다.');
+  }
+
+  introduce() {
+    print('저의 멤버는 $members 입니다.');
+  }
+}
