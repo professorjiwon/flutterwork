@@ -37,7 +37,9 @@ addNumbers2(int x, [int? y, int? z]) {
 
 // 파라미터가 미지수 일때 대괄호로 묶어준다
 // 기본값을 넣어주면 값이 있으면 원래 값으로, 값이 없으면 기본값으로 넣어줌.
-addNumbers2(int x, [int y = 23, int z = 30]) {
+// adNumbers2(3);
+
+addNumbers2(int x, [int y = 5, int z = 7]) {
   int sum = x + y + z;
   if(sum % 2 == 0) {
     print('$x + $y + $z = 짝수');

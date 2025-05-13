@@ -10,5 +10,5 @@ void main() {
   print(name.runtimeType);
 
   var name2 = 'ji';
-  // name2 = 7;  오류
+  // name2 = 7;  // 오류
 }

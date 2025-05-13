@@ -16,6 +16,7 @@ class Idol {
 
   Idol(this.name, this.members);
 
+  // 클래스명.이름작명
   Idol.con(List values)
     : this.members = values[0],
       this.name = values[1];

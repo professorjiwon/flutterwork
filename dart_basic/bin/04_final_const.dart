@@ -11,6 +11,9 @@ void main() {
   final name3 = 'hello';
   const name4 = 'world';
 
+  //name = 'klkk';
+  //name2 = 'lllk';
+
   // 다른점
   DateTime now1 = DateTime.now();
   print(now1);

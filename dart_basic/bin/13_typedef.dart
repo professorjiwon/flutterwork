@@ -8,9 +8,9 @@
  */
 
 /*
-
 void main() {
   Operation op = add;
+
   int result = op(1,2,3);
   print(result);
 
@@ -31,12 +31,14 @@ void main() {
   print(result);
 
   print(calulate(50, 10, 30, subtract));
+  print(calulate(50, 10, 30, multi));
 }
 
 typedef Operation = int Function(int x, int y, int z);
 
 int add(int x, int y, int z) => x + y + z;
 int subtract(int x, int y, int z) => x - y - z;
+int multi(int x, int y, int z) => x * y * z;
 int calulate(int x, int y, int z, Operation op) => op(x,y,z);
 
 /*
