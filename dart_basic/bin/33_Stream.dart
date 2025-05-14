@@ -45,7 +45,7 @@ void main() {
 
   // 짝수인 경우만 호출
   final streamListener1 = stream.where((val) => val % 2 == 0).listen((val){
-    print('짝수 Listener1 : $val');
+     print('짝수 Listener1 : $val');
   });
 
   final streamListener2 = stream.where((val) => val % 2 == 1).listen((val){

@@ -2,9 +2,9 @@
   named parameter : 이름이 있는 파라미터. 순서가 필요 없음
  */
 void main() {
-  addNumbers(y: 10, x: 5, z: 20);
+  addNumbers(z: 10, y: 5, x: 20);
   addNumbers2(y: 10, x: 5);
-  addNumbers2(y: 10, x: 5, z: 20);
+  addNumbers2(y: 10, x: 5, z:20);
 
   print(addNumbers3(y: 10, x: 20));
   print('----------------------------');
