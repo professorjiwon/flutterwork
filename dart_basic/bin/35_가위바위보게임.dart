@@ -16,6 +16,7 @@ void main() {
   print('사용자는 $userInput을 냈습니다');
   print('컴퓨터는 $comResult을 냈습니다');
   print('결과는 $result');
+  
 }
 
 getResult(String userInput, String comInput) {
