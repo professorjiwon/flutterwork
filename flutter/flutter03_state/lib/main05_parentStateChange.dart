@@ -80,7 +80,6 @@ class CustomDialog extends StatelessWidget {
           children: [
             TextField(),
             // 3. 사용하기
-            Text(),
             TextButton(
               onPressed: (){
                 friendState();  // 함수 호출시 괄호 붙여준다
